@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba Pico CSS</title>
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body class="container">
+  <nav>
+    <li><strong>Nombre empresa</strong></li>
+    <ul>
+      <li>
+        <a href="#">Enlace</a>
+      </li>
+      <li>
+        <a href="#">Enlace</a>
+      </li>
+      <li>
+        <a href="#">Enlace</a>
+      </li>
+      <li>
+        <a href="#">Enlace</a>
+      </li>
+    </ul>
+  </nav>
+  <header>
+    <h1>Nombre empresa</h1>
+    <p>Eslogan de la empresa</p>
+  </header>
+  <section>
+
+    <h2>Conoce nuestros trabajos</h2>
+    <article class="card1">
+      <div class="div1">
+        <h3>Tarjeta</h3>
+        <p>contenido de la tarjeta</p>
+      </div>
+      <img
+        src="https://media.istockphoto.com/photos/looking-directly-up-at-the-skyline-of-the-financial-district-in-picture-id1215119911?k=20&m=1215119911&s=612x612&w=0&h=xnJVMO0gPzC1Joa9bTzVOQn74dmh6vWeIntDag7I3jQ="
+        alt="imagen">
+    </article>
+    <article class="card2">
+      <div class="div2">
+        <h3>Tarjeta</h3>
+        <p>contenido de la tarjeta</p>
+      </div>
+      <img
+        src="https://media.istockphoto.com/photos/looking-directly-up-at-the-skyline-of-the-financial-district-in-picture-id1215119911?k=20&m=1215119911&s=612x612&w=0&h=xnJVMO0gPzC1Joa9bTzVOQn74dmh6vWeIntDag7I3jQ="
+        alt="imagen">
+    </article>
+  </section>
+  <section>
+    <header><h2>Escribinos</h2></header>
+    <form>
+      <div class="grid">
+        <label for="firstname">
+          Nombre
+          <input type="text" id="firstname" name="firstname" placeholder="Nombre" required>
+        </label>
+        <label for="lastname">
+          Apellido
+          <input type="text" id="lastname" name="lastname" placeholder="Apellido" required>
+        </label>
+      </div>
+      <label for="email">Correo</label>
+      <input type="email" id="email" name="email" placeholder="Email" required>
+      <small>Estaremos respondiendo su consulta a la brevedad.</small>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <h4>Seguinos en nuetras redes</h4>
+    <nav>
+      <ul>
+        <li><a href=""><strong>IG</strong></a></li>
+        <li><a href=""><strong>FB</strong></a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
